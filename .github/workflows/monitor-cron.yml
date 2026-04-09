@@ -1,0 +1,16 @@
+name: Hourly Monitor
+
+on:
+  schedule:
+    - cron: '17 * * * *'  # Every hour at :17
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger monitor
+        run: |
+          curl -s -X POST 'https://ai-intel-hub.onrender.com/api/monitor' \
+            -H 'Content-Type: application/json' \
+            -d '{"action":"run"}'
