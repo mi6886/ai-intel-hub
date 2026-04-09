@@ -1,5 +1,6 @@
 import Database from 'better-sqlite3';
 import path from 'path';
+import fs from 'fs';
 
 let db: Database.Database | null = null;
 
@@ -7,6 +8,17 @@ export function getDb(): Database.Database {
   if (db) return db;
 
   const dbPath = process.env.DB_PATH || path.join(process.cwd(), 'data', 'monitor.db');
+
+  // If DB doesn't exist, copy seed data
+  if (!fs.existsSync(dbPath)) {
+    const seedPath = path.join(process.cwd(), 'data', 'seed.db');
+    if (fs.existsSync(seedPath)) {
+      const dir = path.dirname(dbPath);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      fs.copyFileSync(seedPath, dbPath);
+    }
+  }
+
   db = new Database(dbPath);
   db.pragma('journal_mode = WAL');
   db.pragma('foreign_keys = ON');
