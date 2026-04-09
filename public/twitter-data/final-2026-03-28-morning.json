@@ -1,0 +1,889 @@
+{
+  "date": "2026-03-28",
+  "period": "morning",
+  "fetched_at": "2026-03-27T23:23:43.233305+00:00",
+  "raw_count": 86,
+  "candidate_count": 51,
+  "final_count": 13,
+  "review_count": 31,
+  "drop_hard_count": 7,
+  "disposition_stats": {
+    "brief_mention": 3,
+    "low_info_content": 28,
+    "info_value": 7,
+    "off_topic": 5,
+    "monitored_popular": 6,
+    "gossip_or_bait": 2
+  },
+  "tweets": [
+    {
+      "tweet_id": "2037487820437418360",
+      "url": "https://x.com/aiwithjainam/status/2037487820437418360",
+      "screen_name": "aiwithjainam",
+      "created_at": "Fri Mar 27 11:12:05 +0000 2026",
+      "full_text": "🚨BREAKING: Claude has a secret mode called \"Ikigai Career Mapper.\"\n\nIt takes your skills, passions, and income needs and finds the exact intersection that makes work feel effortless.\n\nHere's how to activate it: https://t.co/YptwWmcnv2",
+      "lang": "en",
+      "favorite_count": 6713,
+      "retweet_count": 592,
+      "reply_count": 16,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/YptwWmcnv2",
+          "expanded_url": "https://x.com/aiwithjainam/status/2037487820437418360/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 57,
+                  "w": 57,
+                  "x": 378,
+                  "y": 246
+                },
+                {
+                  "h": 70,
+                  "w": 70,
+                  "x": 296,
+                  "y": 489
+                },
+                {
+                  "h": 396,
+                  "w": 396,
+                  "x": 46,
+                  "y": 389
+                }
+              ]
+            }
+          },
+          "id_str": "2037487818054975488",
+          "indices": [
+            211,
+            234
+          ],
+          "media_key": "3_2037487818054975488",
+          "media_url_https": "https://pbs.twimg.com/media/HEacYB1aQAA44lN.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 896,
+                "w": 1600,
+                "x": 0,
+                "y": 4
+              },
+              {
+                "h": 900,
+                "w": 900,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 789,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 450,
+                "x": 135,
+                "y": 0
+              },
+              {
+                "h": 900,
+                "w": 1600,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 900,
+            "width": 1600
+          },
+          "sizes": {
+            "large": {
+              "h": 900,
+              "w": 1600
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/YptwWmcnv2"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037564610384208273",
+      "url": "https://x.com/thedankoe/status/2037564610384208273",
+      "screen_name": "thedankoe",
+      "created_at": "Fri Mar 27 16:17:13 +0000 2026",
+      "full_text": "Competition is largely an illusion. 95% of people don't even try to do great things. 0.1% of the people are loud, so you overestimate how many people there are. The rest get stuck worrying about competition and quitting after 2 weeks.",
+      "lang": "en",
+      "favorite_count": 6281,
+      "retweet_count": 764,
+      "reply_count": 372,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037566060485083399",
+      "url": "https://x.com/aakashgupta/status/2037566060485083399",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Mar 27 16:22:59 +0000 2026",
+      "full_text": "This is an absolute masterclass from MIT on how to speak \n\nhttps://t.co/otu5clhaBc",
+      "lang": "en",
+      "favorite_count": 4405,
+      "retweet_count": 971,
+      "reply_count": 28,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "graphql_source_user": {
+              "user_results": {
+                "result": {
+                  "__typename": "User",
+                  "affiliates_highlighted_label": {},
+                  "exclusive_tweet_following": false,
+                  "is_blue_verified": true,
+                  "legacy": {
+                    "advertiser_account_service_levels": [
+                      "analytics"
+                    ],
+                    "advertiser_account_type": "promotable_user",
+                    "analytics_type": "disabled",
+                    "blocked_by": false,
+                    "blocking": false,
+                    "can_dm": true,
+                    "can_media_tag": true,
+                    "created_at": "Tue Dec 24 15:44:32 +0000 2024",
+                    "description": "Building @articulateHQ | Helping VCs & founders to build an unforgettable Personal Brand | Writer • Thinker • Self-Improvement",
+                    "entities": {
+                      "description": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                          {
+                            "id_str": "0",
+                            "indices": [
+                              9,
+                              22
+                            ],
+                            "name": "",
+                            "screen_name": "articulateHQ"
+                          }
+                        ]
+                      },
+                      "url": {
+                        "urls": [
+                          {
+                            "display_url": "calendly.com/articulatehq/3…",
+                            "expanded_url": "https://calendly.com/articulatehq/30min",
+                            "indices": [
+                              0,
+                              23
+                            ],
+                            "url": "https://t.co/Bv5fgIh8rB"
+                          }
+                        ]
+                      }
+                    },
+                    "fast_followers_count": 0,
+                    "favourites_count": 4024,
+                    "follow_request_sent": false,
+                    "followed_by": false,
+                    "followers_count": 35616,
+                    "following": false,
+                    "friends_count": 92,
+                    "geo_enabled": false,
+                    "has_custom_timelines": false,
+                    "has_extended_profile": true,
+                    "id_str": "1871582672121954304",
+                    "is_translator": false,
+                    "location": "Book your call here:",
+                    "media_count": 846,
+                    "muting": false,
+                    "name": "Jaynit",
+                    "normal_followers_count": 35616,
+                    "notifications": false,
+                    "pinned_tweet_ids_str": [
+                      "1900159993782972547"
+                    ],
+                    "profile_background_color": "F5F8FA",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1871582672121954304/1739799976",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1871881199372914688/FKDqACyE_normal.jpg",
+                    "profile_interstitial_type": "",
+                    "profile_link_color": "1DA1F2",
+                    "protected": false,
+                    "screen_name": "jaynitx",
+                    "statuses_count": 1956,
+                    "translator_type_enum": "None",
+                    "url": "https://t.co/Bv5fgIh8rB",
+                    "verified": false,
+                    "want_retweets": false,
+                    "withheld_in_countries": []
+                  },
+                  "private_super_following": false,
+                  "profile_image_shape": "Circle",
+                  "rest_id": "1871582672121954304",
+                  "super_follow_eligible": true,
+                  "super_followed_by": false,
+                  "super_following": false
+                }
+              }
+            },
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/otu5clhaBc",
+          "expanded_url": "https://x.com/jaynitx/status/2037501962254729620/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037499403209158656",
+          "indices": [
+            59,
+            82
+          ],
+          "media_key": "13_2037499403209158656",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037499403209158656/img/si1_8BNsxmPbb2rk.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 720,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 720,
+              "w": 1280
+            }
+          },
+          "source_status_id_str": "2037501962254729620",
+          "source_user_id_str": "1871582672121954304",
+          "type": "video",
+          "url": "https://t.co/otu5clhaBc",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 3772931,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/pl/t1g_hL5iIzQdrNaY.m3u8?v=b46"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/vid/avc1/480x270/nzhtw_Z19W7wsLmW.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/vid/avc1/640x360/r78CoBjv2ATWwgDp.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037499403209158656/vid/avc1/1280x720/hyt4GsunQ0dZyRls.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037486559277027470",
+      "url": "https://x.com/hopemidah/status/2037486559277027470",
+      "screen_name": "hopemidah",
+      "created_at": "Fri Mar 27 11:07:05 +0000 2026",
+      "full_text": "Whoever is using Claude to build an app right now can you pause for just one minute? I need this pptx by 2.15😭😭aki woiye",
+      "lang": "en",
+      "favorite_count": 4338,
+      "retweet_count": 291,
+      "reply_count": 60,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037473919062380630",
+      "url": "https://x.com/egeberkina/status/2037473919062380630",
+      "screen_name": "egeberkina",
+      "created_at": "Fri Mar 27 10:16:51 +0000 2026",
+      "full_text": "Rotring\n\nBrutalist edition https://t.co/bZMhaUX2jf",
+      "lang": "fr",
+      "favorite_count": 3847,
+      "retweet_count": 184,
+      "reply_count": 9,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/bZMhaUX2jf",
+          "expanded_url": "https://x.com/egeberkina/status/2037473919062380630/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 76,
+                  "w": 76,
+                  "x": 330,
+                  "y": 1076
+                }
+              ]
+            }
+          },
+          "id_str": "2037473850913595392",
+          "indices": [
+            27,
+            50
+          ],
+          "media_key": "3_2037473850913595392",
+          "media_url_https": "https://pbs.twimg.com/media/HEaPrCLaIAAnSCc.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 502,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 896,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1021,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 600,
+                "x": 149,
+                "y": 0
+              },
+              {
+                "h": 1200,
+                "w": 896,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1200,
+            "width": 896
+          },
+          "sizes": {
+            "large": {
+              "h": 1200,
+              "w": 896
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/bZMhaUX2jf"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037610000122839116",
+      "url": "https://x.com/sama/status/2037610000122839116",
+      "screen_name": "sama",
+      "created_at": "Fri Mar 27 19:17:35 +0000 2026",
+      "full_text": "The first steel beams went up this week at our Michigan Stargate site with Oracle and Related Digital https://t.co/Hl0NBqwfnS",
+      "lang": "en",
+      "favorite_count": 3504,
+      "retweet_count": 188,
+      "reply_count": 615,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/Hl0NBqwfnS",
+          "expanded_url": "https://x.com/sama/status/2037610000122839116/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037609606734925824",
+          "indices": [
+            102,
+            125
+          ],
+          "media_key": "13_2037609606734925824",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037609606734925824/img/tQ8iaeWmXu4KQ6dk.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/Hl0NBqwfnS",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 16033,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/pl/CrSEn4nG_uof0fPL.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/480x270/dL4Kvf5N8woJKJT-.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/640x360/tVBKYvq8AyiEDtDF.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/1280x720/WViymAwXbJ5HshOw.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/1920x1080/Bi9TkcPoRQa4xagB.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037609606734925824/vid/avc1/3840x2160/fxk-n4cH0Ng2r_WY.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037542287433965671",
+      "url": "https://x.com/joinautopilot/status/2037542287433965671",
+      "screen_name": "joinautopilot",
+      "created_at": "Fri Mar 27 14:48:31 +0000 2026",
+      "full_text": "Update: It’s been 144 days since Michael Burry publicly went bearish on NVIDIA $NVDA\n\nIt’s down 18% since https://t.co/yZ2E2imW9E",
+      "lang": "en",
+      "favorite_count": 2923,
+      "retweet_count": 41,
+      "reply_count": 44,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/yZ2E2imW9E",
+          "expanded_url": "https://x.com/joinautopilot/status/2037542287433965671/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 61,
+                  "w": 61,
+                  "x": 298,
+                  "y": 70
+                }
+              ]
+            }
+          },
+          "id_str": "2037542070064480257",
+          "indices": [
+            106,
+            129
+          ],
+          "media_key": "3_2037542070064480257",
+          "media_url_https": "https://pbs.twimg.com/media/HEbNt6UbgAEj0J1.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 381,
+                "w": 680,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 409,
+                "x": 119,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 359,
+                "x": 144,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 205,
+                "x": 221,
+                "y": 0
+              },
+              {
+                "h": 409,
+                "w": 680,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 409,
+            "width": 680
+          },
+          "sizes": {
+            "large": {
+              "h": 409,
+              "w": 680
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/yZ2E2imW9E"
+        },
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/yZ2E2imW9E",
+          "expanded_url": "https://x.com/joinautopilot/status/2037542287433965671/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 188,
+                  "w": 188,
+                  "x": 9,
+                  "y": 14
+                }
+              ]
+            }
+          },
+          "id_str": "2037542086036303872",
+          "indices": [
+            106,
+            129
+          ],
+          "media_key": "3_2037542086036303872",
+          "media_url_https": "https://pbs.twimg.com/media/HEbNu10aMAA6wi-.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 448,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 702,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 800,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 800,
+            "width": 800
+          },
+          "sizes": {
+            "large": {
+              "h": 800,
+              "w": 800
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/yZ2E2imW9E"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037387388968960183",
+      "url": "https://x.com/_weidai/status/2037387388968960183",
+      "screen_name": "_weidai",
+      "created_at": "Fri Mar 27 04:33:01 +0000 2026",
+      "full_text": "The state of Claude vs. Codex, in two tweets. https://t.co/6IFB0qlGZl",
+      "lang": "en",
+      "favorite_count": 2888,
+      "retweet_count": 161,
+      "reply_count": 149,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/6IFB0qlGZl",
+          "expanded_url": "https://x.com/_weidai/status/2037387388968960183/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 46,
+                  "w": 46,
+                  "x": 56,
+                  "y": 38
+                },
+                {
+                  "h": 43,
+                  "w": 43,
+                  "x": 40,
+                  "y": 676
+                },
+                {
+                  "h": 45,
+                  "w": 45,
+                  "x": 1023,
+                  "y": 779
+                },
+                {
+                  "h": 101,
+                  "w": 101,
+                  "x": 16,
+                  "y": 645
+                }
+              ]
+            }
+          },
+          "id_str": "2037387246312337408",
+          "indices": [
+            46,
+            69
+          ],
+          "media_key": "3_2037387246312337408",
+          "media_url_https": "https://pbs.twimg.com/media/HEZA5-5bsAA5Xsu.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 735,
+                "w": 1312,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1312,
+                "w": 1312,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1322,
+                "w": 1160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1322,
+                "w": 661,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1322,
+                "w": 1312,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1322,
+            "width": 1312
+          },
+          "sizes": {
+            "large": {
+              "h": 1322,
+              "w": 1312
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/6IFB0qlGZl"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037614218376348124",
+      "url": "https://x.com/BullTheoryio/status/2037614218376348124",
+      "screen_name": "BullTheoryio",
+      "created_at": "Fri Mar 27 19:34:21 +0000 2026",
+      "full_text": "BREAKING: Anthropic accidentally leaked its next AI model and it just wiped out $14.5 billion from cybersecurity stocks in a single day.\n\nClaude Mythos was accidentally stored in a publicly accessible data cache and discovered before Anthropic could announce it. \n\nThe model https://t.co/iKyVrqDyQU",
+      "lang": "en",
+      "favorite_count": 2693,
+      "retweet_count": 458,
+      "reply_count": 181,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/iKyVrqDyQU",
+          "expanded_url": "https://x.com/BullTheoryio/status/2037614218376348124/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037614041863196672",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "3_2037614041863196672",
+          "media_url_https": "https://pbs.twimg.com/media/HEcPLOKakAA_-w5.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 717,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 1123,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 640,
+                "x": 96,
+                "y": 0
+              },
+              {
+                "h": 1280,
+                "w": 1280,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1280,
+            "width": 1280
+          },
+          "sizes": {
+            "large": {
+              "h": 1280,
+              "w": 1280
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/iKyVrqDyQU"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037386789422317783",
+      "url": "https://x.com/OfficialLoganK/status/2037386789422317783",
+      "screen_name": "OfficialLoganK",
+      "created_at": "Fri Mar 27 04:30:38 +0000 2026",
+      "full_text": "Escape competition through authenticity",
+      "lang": "en",
+      "favorite_count": 2537,
+      "retweet_count": 289,
+      "reply_count": 138,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037265411784192164",
+      "url": "https://x.com/BenjaminBadejo/status/2037265411784192164",
+      "screen_name": "BenjaminBadejo",
+      "created_at": "Thu Mar 26 20:28:19 +0000 2026",
+      "full_text": "@trq212 Too late. I canceled. Trust gone. Dangerous rug pull, and the company didn’t respond for a week. The company can easily do this to people using Claude Computer and hold critical workflows and data hostage in the account unless the user switches to ultra-expensive API billing. 🤮",
+      "lang": "en",
+      "favorite_count": 2496,
+      "retweet_count": 32,
+      "reply_count": 22,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037308278045352337",
+      "url": "https://x.com/elvissun/status/2037308278045352337",
+      "screen_name": "elvissun",
+      "created_at": "Thu Mar 26 23:18:39 +0000 2026",
+      "full_text": "which happen first?\n\n A) Max 20x becomes $1000/mo\n B) Anthropic burns through all its customer goodwill",
+      "lang": "en",
+      "favorite_count": 2300,
+      "retweet_count": 57,
+      "reply_count": 135,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037303596849525160",
+      "url": "https://x.com/MrBeast/status/2037303596849525160",
+      "screen_name": "MrBeast",
+      "created_at": "Thu Mar 26 23:00:03 +0000 2026",
+      "full_text": "@yogscast can you follow me so I can dm you plz",
+      "lang": "en",
+      "favorite_count": 2084,
+      "retweet_count": 63,
+      "reply_count": 540,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    }
+  ]
+}

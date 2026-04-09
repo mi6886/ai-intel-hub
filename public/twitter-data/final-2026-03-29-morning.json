@@ -1,0 +1,420 @@
+{
+  "date": "2026-03-29",
+  "period": "morning",
+  "fetched_at": "2026-03-28T23:21:57.331319+00:00",
+  "raw_count": 71,
+  "candidate_count": 39,
+  "final_count": 14,
+  "review_count": 23,
+  "drop_hard_count": 2,
+  "disposition_stats": {
+    "monitored_popular": 11,
+    "gossip_or_bait": 1,
+    "low_info_content": 20,
+    "weak_signal_untrusted": 1,
+    "info_value": 3,
+    "brief_mention": 2,
+    "off_topic": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2037921699824607591",
+      "url": "https://x.com/karpathy/status/2037921699824607591",
+      "screen_name": "karpathy",
+      "created_at": "Sat Mar 28 15:56:10 +0000 2026",
+      "full_text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it’s so convincing!\n- Fun idea let’s ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe",
+      "lang": "en",
+      "favorite_count": 18499,
+      "retweet_count": 1369,
+      "reply_count": 1132,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037756603332727178",
+      "url": "https://x.com/aakashgupta/status/2037756603332727178",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 05:00:08 +0000 2026",
+      "full_text": "The universe is a time machine and the math on the distance ladder will break your brain.\n\n2,000 light-years gets you Rome. Go to 500 light-years and you're watching the Black Plague consume Europe in real time. At 80 light-years, you catch World War II. At 4.24 light-years, the",
+      "lang": "en",
+      "favorite_count": 5656,
+      "retweet_count": 809,
+      "reply_count": 138,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037766137363263525",
+      "url": "https://x.com/aakashgupta/status/2037766137363263525",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 05:38:01 +0000 2026",
+      "full_text": "If you're under 40, this is one of the best buying opportunities you'll get this year.\n\nRun the math on what happens when you buy at these levels historically.\n\nThe forward P/E just fell to 19.7x. That's below the 5-year average of 20.1x and the cheapest the index has traded",
+      "lang": "en",
+      "favorite_count": 5090,
+      "retweet_count": 385,
+      "reply_count": 267,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037840631322870140",
+      "url": "https://x.com/aakashgupta/status/2037840631322870140",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 10:34:02 +0000 2026",
+      "full_text": "The audition math on this casting is absurd.\n\nHBO reviewed over 32,000 children for three roles. 500 to 1,000 audition tapes per day. The search took months. For the lead trio alone, the hit rate was 0.009%.\n\nLox Pratt is 14. He just signed a contract that will define his entire",
+      "lang": "en",
+      "favorite_count": 4613,
+      "retweet_count": 123,
+      "reply_count": 153,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037760601527840986",
+      "url": "https://x.com/aakashgupta/status/2037760601527840986",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 05:16:01 +0000 2026",
+      "full_text": "A bobby pin costs two cents. The labor to find it in a garment, bag it, write a bilingual note, and deliver it to your room costs maybe $4-5 in staff time.\n\nThat math looks insane until you zoom out.\n\nJapan's hospitality philosophy has a name: omotenashi. It originates from the",
+      "lang": "en",
+      "favorite_count": 3027,
+      "retweet_count": 380,
+      "reply_count": 36,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037808362088198324",
+      "url": "https://x.com/adiix_official/status/2037808362088198324",
+      "screen_name": "adiix_official",
+      "created_at": "Sat Mar 28 08:25:48 +0000 2026",
+      "full_text": "me seeing a Claude bot that made $2.4M \n\nand someone dropped a full guide\n\nmy life after reading: https://t.co/OFPvGiBQo8",
+      "lang": "en",
+      "favorite_count": 2970,
+      "retweet_count": 177,
+      "reply_count": 62,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/OFPvGiBQo8",
+          "expanded_url": "https://x.com/adiix_official/status/2037808362088198324/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037808247759937536",
+          "indices": [
+            98,
+            121
+          ],
+          "media_key": "13_2037808247759937536",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037808247759937536/img/AQiCt1CJ0UEPXMso.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1916
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1916
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/OFPvGiBQo8",
+          "video_info": {
+            "aspect_ratio": [
+              479,
+              270
+            ],
+            "duration_millis": 38698,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037808247759937536/pl/GpzBlHgQsLOk-OJZ.m3u8?v=dfc"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037808247759937536/vid/avc1/478x270/HNDd9q7adb1CTTAU.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037808247759937536/vid/avc1/638x360/WNXuQgv1I46Zlw4Q.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037808247759937536/vid/avc1/1276x720/ZM_4RQQ-AZ1FP8BR.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037808247759937536/vid/avc1/1916x1080/RUSDLWTuTdsY0sIp.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037967559316627921",
+      "url": "https://x.com/MrBeast/status/2037967559316627921",
+      "screen_name": "MrBeast",
+      "created_at": "Sat Mar 28 18:58:24 +0000 2026",
+      "full_text": "@extraemilyy Can I win plz",
+      "lang": "en",
+      "favorite_count": 2881,
+      "retweet_count": 59,
+      "reply_count": 590,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037811957005463973",
+      "url": "https://x.com/aakashgupta/status/2037811957005463973",
+      "screen_name": "aakashgupta",
+      "created_at": "Sat Mar 28 08:40:05 +0000 2026",
+      "full_text": "Bukele made a bet that security is the foundation layer. That everything, GDP, tourism, foreign investment, diaspora return, builds on top of safety. The numbers say he was right. The method will be debated for decades.\n\nIn 2015, El Salvador had a murder rate of 106.3 per",
+      "lang": "en",
+      "favorite_count": 2814,
+      "retweet_count": 496,
+      "reply_count": 89,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037895490742988809",
+      "url": "https://x.com/thedankoe/status/2037895490742988809",
+      "screen_name": "thedankoe",
+      "created_at": "Sat Mar 28 14:12:01 +0000 2026",
+      "full_text": "It seems like everyone is obsessed with productivity and efficiency yet rarely get anything meaningful done. I'm convinced your best work is done when you're not working. When you have space for creative ideas to emerge that drastically change the trajectory of your life/work.",
+      "lang": "en",
+      "favorite_count": 2800,
+      "retweet_count": 241,
+      "reply_count": 338,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037920266479899110",
+      "url": "https://x.com/gabriel1/status/2037920266479899110",
+      "screen_name": "gabriel1",
+      "created_at": "Sat Mar 28 15:50:28 +0000 2026",
+      "full_text": "when interviewing for jobs, don't talk as if they're doing you a favor by hiring you and giving you money\n\nfocus on removing 100% of unknowns from the interviewer, even if they don't ask you; do you work hard, learn fast, have you done this before, show something live",
+      "lang": "en",
+      "favorite_count": 2796,
+      "retweet_count": 86,
+      "reply_count": 52,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037731313562923121",
+      "url": "https://x.com/adamlyttleapps/status/2037731313562923121",
+      "screen_name": "adamlyttleapps",
+      "created_at": "Sat Mar 28 03:19:39 +0000 2026",
+      "full_text": "Screw it, I made it open source..\n\nThis is Notchy -_-\n\nHe stops you getting distracted when using Claude code by replacing your Macbooks notch with a terminal\n\nHe lets you know when claude needs your attention\nAnd plays a sound when tasks are complete\n\nBest of all: he stops your https://t.co/fhNxbSb8ET",
+      "lang": "en",
+      "favorite_count": 2523,
+      "retweet_count": 131,
+      "reply_count": 98,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/fhNxbSb8ET",
+          "expanded_url": "https://x.com/adamlyttleapps/status/2037731313562923121/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2037730954714988544",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2037730954714988544",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2037730954714988544/img/z-FGAoSnqpSIeuyX.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/fhNxbSb8ET",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 24333,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2037730954714988544/pl/4sAJp0ntw1lLKNSK.m3u8?v=a36"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037730954714988544/vid/avc1/480x270/QvgnEZzciT7E85Lc.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037730954714988544/vid/avc1/640x360/0M1_B0VpoqVB_3Py.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037730954714988544/vid/avc1/1280x720/ZJQHQ2JrOSTd84Dw.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037730954714988544/vid/avc1/1920x1080/g9mhpMvLYRWm41hq.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2037730954714988544/vid/avc1/3840x2160/fbvtTG3-0XklTh1s.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037788648691884207",
+      "url": "https://x.com/techNmak/status/2037788648691884207",
+      "screen_name": "techNmak",
+      "created_at": "Sat Mar 28 07:07:28 +0000 2026",
+      "full_text": "Someone finally documented how to actually use Claude Code.\n\n22K+ stars. claude-code-best-practice.\n\nDirect from Boris Cherny and team:\n\n→ Always use plan mode, give Claude a way to verify\n→ Ask Claude to interview you using AskUserQuestion tool\n→ Use Git Worktrees for https://t.co/4oEjq3VR0X",
+      "lang": "en",
+      "favorite_count": 2305,
+      "retweet_count": 274,
+      "reply_count": 50,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/4oEjq3VR0X",
+          "expanded_url": "https://x.com/techNmak/status/2037788648691884207/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2037788196025864192",
+          "indices": [
+            270,
+            293
+          ],
+          "media_key": "3_2037788196025864192",
+          "media_url_https": "https://pbs.twimg.com/media/HEetkU-bEAA0hd_.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 626,
+                "w": 1118,
+                "x": 0,
+                "y": 403
+              },
+              {
+                "h": 1118,
+                "w": 1118,
+                "x": 0,
+                "y": 157
+              },
+              {
+                "h": 1275,
+                "w": 1118,
+                "x": 0,
+                "y": 79
+              },
+              {
+                "h": 2236,
+                "w": 1118,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 4096,
+                "w": 1118,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 4096,
+            "width": 1118
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 559
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/4oEjq3VR0X"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2037871384878051632",
+      "url": "https://x.com/dickiebush/status/2037871384878051632",
+      "screen_name": "dickiebush",
+      "created_at": "Sat Mar 28 12:36:14 +0000 2026",
+      "full_text": "A handful of things that are worth the money:\n\n- Eight Sleep\n- One $5000+ watch\n- Blackout curtains\n- Bamboo sheets\n- Uber Black\n- Home espresso machine\n- 1:1 skill tutoring\n- High-level masterminds\n- Standing desk\n- Herman Miller chair\n- Specced out MacBook Pro\n- Home sauna &amp;",
+      "lang": "en",
+      "favorite_count": 2173,
+      "retweet_count": 123,
+      "reply_count": 115,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2037647103661625553",
+      "url": "https://x.com/aakashgupta/status/2037647103661625553",
+      "screen_name": "aakashgupta",
+      "created_at": "Fri Mar 27 21:45:01 +0000 2026",
+      "full_text": "The camera progression tells the entire story of where smartphone hardware hit a wall.\n\niPhone 1: 2MP. iPhone 3GS: 3MP. iPhone 4: 5MP. iPhone 4S: 8MP. iPhone 6S: 12MP. Every generation was a visible leap you could see with your eyes in a single photo.\n\nThen from 2015 to 2022,",
+      "lang": "en",
+      "favorite_count": 2066,
+      "retweet_count": 191,
+      "reply_count": 30,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    }
+  ]
+}

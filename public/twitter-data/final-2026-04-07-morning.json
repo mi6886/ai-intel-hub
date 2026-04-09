@@ -1,0 +1,700 @@
+{
+  "date": "2026-04-07",
+  "period": "morning",
+  "fetched_at": "2026-04-06T23:27:03.566424+00:00",
+  "raw_count": 76,
+  "candidate_count": 44,
+  "final_count": 14,
+  "review_count": 29,
+  "drop_hard_count": 1,
+  "disposition_stats": {
+    "low_info_content": 24,
+    "brief_mention": 4,
+    "info_value": 7,
+    "monitored_popular": 7,
+    "off_topic": 1,
+    "meme_or_reaction": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2041061191435395416",
+      "url": "https://x.com/Joestar_sann/status/2041061191435395416",
+      "screen_name": "Joestar_sann",
+      "created_at": "Mon Apr 06 07:51:23 +0000 2026",
+      "full_text": "so let me get this straight\n\nall of ai twitter was telling people to buy a mac mini to run openclaw, which is literally just a framework, an orchestration layer that sends api requests to actual ai models. something you can run on a $5/month vps. which is exactly what i do btw",
+      "lang": "en",
+      "favorite_count": 8860,
+      "retweet_count": 523,
+      "reply_count": 368,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041275561704931636",
+      "url": "https://x.com/AnthropicAI/status/2041275561704931636",
+      "screen_name": "AnthropicAI",
+      "created_at": "Mon Apr 06 22:03:13 +0000 2026",
+      "full_text": "We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.",
+      "lang": "en",
+      "favorite_count": 6072,
+      "retweet_count": 396,
+      "reply_count": 240,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041112253349442037",
+      "url": "https://x.com/levelsio/status/2041112253349442037",
+      "screen_name": "levelsio",
+      "created_at": "Mon Apr 06 11:14:17 +0000 2026",
+      "full_text": "Tried Gemma 4 ran locally on my iPhone today\n\nI thought it'd be useful in case the apocalypse happens and I need to ask it for survival tips\n\nLike how to make a fire 🔥 \n\nI guess I'll freeze to death instead 🫠 https://t.co/lFHKm5mcnd",
+      "lang": "en",
+      "favorite_count": 4214,
+      "retweet_count": 107,
+      "reply_count": 389,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/lFHKm5mcnd",
+          "expanded_url": "https://x.com/levelsio/status/2041112253349442037/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041112129609027584",
+          "indices": [
+            209,
+            232
+          ],
+          "media_key": "13_2041112129609027584",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041112129609027584/img/ce2x6l6p3lZ9FRb6.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2868,
+            "width": 1320
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 943
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/lFHKm5mcnd",
+          "video_info": {
+            "aspect_ratio": [
+              110,
+              239
+            ],
+            "duration_millis": 10868,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/pl/n-r14Vi1r8AXmxtn.m3u8?v=cfc"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/320x694/4t0LkNnzCDDygpS-.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/480x1042/JSvrfgNM4yBaE7P7.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/720x1564/0jSomIFIBOiJeOE8.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041112129609027584/vid/avc1/1320x2868/7yerHxvfTgDcXPTk.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041109951461142804",
+      "url": "https://x.com/paulg/status/2041109951461142804",
+      "screen_name": "paulg",
+      "created_at": "Mon Apr 06 11:05:09 +0000 2026",
+      "full_text": "@shaunmmaguire They're not against America. They're against Trump. \n\nTrump is harming American interests and, more dangerously, undermining the principles that make America great. By opposing him, they're supporting America.",
+      "lang": "en",
+      "favorite_count": 3936,
+      "retweet_count": 116,
+      "reply_count": 121,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041169571592524163",
+      "url": "https://x.com/aakashgupta/status/2041169571592524163",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Apr 06 15:02:03 +0000 2026",
+      "full_text": "The story behind the rise of USB-A is wild.\n\nIn 1990, an Intel engineer named Ajay Bhatt couldn't get his wife's printer to work for their daughter's school project. A printer. In his own house. He was a senior architect at the world's biggest chip company, and he couldn't make a",
+      "lang": "en",
+      "favorite_count": 3849,
+      "retweet_count": 609,
+      "reply_count": 71,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041186430974615613",
+      "url": "https://x.com/DKThomp/status/2041186430974615613",
+      "screen_name": "DKThomp",
+      "created_at": "Mon Apr 06 16:09:03 +0000 2026",
+      "full_text": "JPM's Michael Cembalest: \n\nIn the ~160 years after the Civil War, US presidents fired 11 four- and five-star military officers.\n\nIn Trump's first 14 months, the White House has fired 9 of them. https://t.co/volNDO7T3A",
+      "lang": "en",
+      "favorite_count": 3596,
+      "retweet_count": 1377,
+      "reply_count": 81,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/volNDO7T3A",
+          "expanded_url": "https://x.com/DKThomp/status/2041186430974615613/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 50,
+                  "w": 50,
+                  "x": 563,
+                  "y": 211
+                }
+              ]
+            }
+          },
+          "id_str": "2041186199805493248",
+          "indices": [
+            194,
+            217
+          ],
+          "media_key": "3_2041186199805493248",
+          "media_url_https": "https://pbs.twimg.com/media/HFPACLfWAAAi-KN.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 315,
+                "w": 563,
+                "x": 8,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 315,
+                "x": 132,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 276,
+                "x": 151,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 158,
+                "x": 210,
+                "y": 0
+              },
+              {
+                "h": 315,
+                "w": 683,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 315,
+            "width": 683
+          },
+          "sizes": {
+            "large": {
+              "h": 315,
+              "w": 683
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/volNDO7T3A"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041177356790866204",
+      "url": "https://x.com/Oilfield_Rando/status/2041177356790866204",
+      "screen_name": "Oilfield_Rando",
+      "created_at": "Mon Apr 06 15:32:59 +0000 2026",
+      "full_text": "Claude is doing amazing things for coding, but it will flat out refuse to do further work on your project if it thinks you’re going to use it to promote things like nativism. \n\nI 100% support the government banning its use in the military.\n\nGrok is critically important.",
+      "lang": "en",
+      "favorite_count": 3559,
+      "retweet_count": 144,
+      "reply_count": 49,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041000616827502883",
+      "url": "https://x.com/cb_doge/status/2041000616827502883",
+      "screen_name": "cb_doge",
+      "created_at": "Mon Apr 06 03:50:41 +0000 2026",
+      "full_text": "Anthropic trained Claude on MILLIONS of pirated books from LibGen. They paid 1.5 billion dollars, the biggest copyright settlement in history for stealing millions of authors books from pirate sites to train Claude.\n\nCopyright violations were totally fine when they did it. They https://t.co/YSn3xfmuHQ",
+      "lang": "en",
+      "favorite_count": 3042,
+      "retweet_count": 609,
+      "reply_count": 172,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/YSn3xfmuHQ",
+          "expanded_url": "https://x.com/cb_doge/status/2041000616827502883/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 68,
+                  "w": 68,
+                  "x": 62,
+                  "y": 643
+                }
+              ]
+            }
+          },
+          "id_str": "2040999088817418240",
+          "indices": [
+            279,
+            302
+          ],
+          "media_key": "3_2040999088817418240",
+          "media_url_https": "https://pbs.twimg.com/media/HFMV24vbsAAPk94.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 647,
+                "w": 1155,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1155,
+                "w": 1155,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1317,
+                "w": 1155,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1600,
+                "w": 800,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1600,
+                "w": 1155,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1600,
+            "width": 1155
+          },
+          "sizes": {
+            "large": {
+              "h": 1600,
+              "w": 1155
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/YSn3xfmuHQ"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2040942206014419406",
+      "url": "https://x.com/0xQTpie/status/2040942206014419406",
+      "screen_name": "0xQTpie",
+      "created_at": "Sun Apr 05 23:58:35 +0000 2026",
+      "full_text": "a workaround for this is if you run third-party harnesses like OpenClaw inside TempleOS, the power of HolyC and God forbids Anthropic from blocking your claude subscription (it's an exception in their Terms of Service)\n\nbut it does make your opus act a little weird though... https://t.co/lfygIjXPmV",
+      "lang": "en",
+      "favorite_count": 2964,
+      "retweet_count": 186,
+      "reply_count": 59,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/lfygIjXPmV",
+          "expanded_url": "https://x.com/0xQTpie/status/2040942206014419406/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2040941219422027776",
+          "indices": [
+            276,
+            299
+          ],
+          "media_key": "13_2040941219422027776",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2040941219422027776/img/0Bb5VItkwPOFuJs_.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1364
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1364
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/lfygIjXPmV",
+          "video_info": {
+            "aspect_ratio": [
+              341,
+              270
+            ],
+            "duration_millis": 18300,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2040941219422027776/pl/ff3f4YJ8qalVatnJ.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040941219422027776/vid/avc1/340x270/CC1dbgbADC_9MhVZ.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040941219422027776/vid/avc1/454x360/WerbspLkMwnh0rBB.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040941219422027776/vid/avc1/908x720/GYR1umlo0QB87_tD.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2040941219422027776/vid/avc1/1364x1080/KjXJg0tapTCwzIU3.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041113689294823832",
+      "url": "https://x.com/TouchlineX/status/2041113689294823832",
+      "screen_name": "TouchlineX",
+      "created_at": "Mon Apr 06 11:20:00 +0000 2026",
+      "full_text": "🚨 𝗡𝗘𝗪: Perplexity predicts Manchester City vs. Leeds United to be the FA Cup final. https://t.co/Dwi0zJDPWp",
+      "lang": "en",
+      "favorite_count": 2746,
+      "retweet_count": 122,
+      "reply_count": 221,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/Dwi0zJDPWp",
+          "expanded_url": "https://x.com/TouchlineX/status/2041113689294823832/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2040986176723800064",
+          "indices": [
+            84,
+            107
+          ],
+          "media_key": "3_2040986176723800064",
+          "media_url_https": "https://pbs.twimg.com/media/HFMKHTca0AA-fbo.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1210,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2160,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2462,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2700,
+                "w": 1350,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 2700,
+                "w": 2160,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 2700,
+            "width": 2160
+          },
+          "sizes": {
+            "large": {
+              "h": 2048,
+              "w": 1638
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Dwi0zJDPWp"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041093558493667403",
+      "url": "https://x.com/JulianGoldieSEO/status/2041093558493667403",
+      "screen_name": "JulianGoldieSEO",
+      "created_at": "Mon Apr 06 10:00:00 +0000 2026",
+      "full_text": "Claude Code is now completely free forever 🤯\n\nGoogle just dropped Gemma 4 on Ollama, which means you can run Claude Code locally with zero API bills and zero subscriptions.\n\nJust install Gemma 4, connect it to Claude Code, and suddenly you have free AI agents running directly on https://t.co/fbp1XdL8XZ",
+      "lang": "en",
+      "favorite_count": 2597,
+      "retweet_count": 312,
+      "reply_count": 160,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/fbp1XdL8XZ",
+          "expanded_url": "https://x.com/JulianGoldieSEO/status/2041093558493667403/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041009075417382912",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2041009075417382912",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041009075417382912/img/yyJoA4sXIOoyC_dk.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1920,
+            "width": 1080
+          },
+          "sizes": {
+            "large": {
+              "h": 1920,
+              "w": 1080
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/fbp1XdL8XZ",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 28800,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041009075417382912/pl/KCfDptw991x0-BG2.m3u8?v=aca"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041009075417382912/vid/avc1/320x568/j0DPfVGRJcaS12Sf.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041009075417382912/vid/avc1/480x852/-3yMy_JpP67vmE3Q.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041009075417382912/vid/avc1/720x1280/cXKDhVAD5_yQwaIK.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041009075417382912/vid/avc1/1080x1920/P3VayQzWSLNXqdT6.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041013367662669842",
+      "url": "https://x.com/paulg/status/2041013367662669842",
+      "screen_name": "paulg",
+      "created_at": "Mon Apr 06 04:41:21 +0000 2026",
+      "full_text": "I know it's meant to seem an annoying habit, but I'd like it if I had a friend who was constantly teaching me random facts like Sheldon Cooper does.",
+      "lang": "en",
+      "favorite_count": 2535,
+      "retweet_count": 159,
+      "reply_count": 295,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041019578520846747",
+      "url": "https://x.com/aakashgupta/status/2041019578520846747",
+      "screen_name": "aakashgupta",
+      "created_at": "Mon Apr 06 05:06:02 +0000 2026",
+      "full_text": "The reason red means \"up\" on these emojis dates back to 1697 Osaka, Japan.\n\nRice merchants created the world's first futures exchange at the Dojima Rice Market. They needed to chart whether prices were rising or falling, so they built the candlestick chart, called 陰陽足",
+      "lang": "en",
+      "favorite_count": 2458,
+      "retweet_count": 491,
+      "reply_count": 19,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2040874853881004163",
+      "url": "https://x.com/anirudhbv_ce/status/2040874853881004163",
+      "screen_name": "anirudhbv_ce",
+      "created_at": "Sun Apr 05 19:30:57 +0000 2026",
+      "full_text": "pip install turboquant-gpu\n\n5.02x KV cache compression for ANY GPU (RTX, H100, A100, B200)\n\n- works over @huggingface transformers\n\n- dead-simple API: compress + generate in 3 lines\n\n- 3-bit Lloyd-Max fused KV compression (0.98 cosine similarity)\n\n- outperforms MXFP4 (3.76x) and https://t.co/Z4pZwkXLT2",
+      "lang": "en",
+      "favorite_count": 2234,
+      "retweet_count": 252,
+      "reply_count": 76,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/Z4pZwkXLT2",
+          "expanded_url": "https://x.com/anirudhbv_ce/status/2040874853881004163/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 91,
+                  "w": 91,
+                  "x": 879,
+                  "y": 315
+                }
+              ]
+            }
+          },
+          "id_str": "2040874333334126592",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2040874333334126592",
+          "media_url_https": "https://pbs.twimg.com/media/HFKkZKWXwAAhnVN.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 1075,
+                "w": 1920,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 1080,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 947,
+                "x": 55,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 540,
+                "x": 258,
+                "y": 0
+              },
+              {
+                "h": 1080,
+                "w": 1920,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Z4pZwkXLT2"
+        }
+      ]
+    }
+  ]
+}

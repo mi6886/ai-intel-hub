@@ -1,0 +1,1076 @@
+{
+  "date": "2026-04-08",
+  "period": "morning",
+  "fetched_at": "2026-04-07T23:29:57.247837+00:00",
+  "raw_count": 97,
+  "candidate_count": 63,
+  "final_count": 22,
+  "review_count": 37,
+  "drop_hard_count": 4,
+  "disposition_stats": {
+    "low_info_content": 32,
+    "monitored_popular": 14,
+    "info_value": 8,
+    "brief_mention": 4,
+    "off_topic": 3,
+    "gossip_or_bait": 1,
+    "weak_signal_untrusted": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2041545816750567573",
+      "url": "https://x.com/aakashgupta/status/2041545816750567573",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 15:57:07 +0000 2026",
+      "full_text": "There's a physicist at Stanford named Safi Bahcall who modeled this exact principle and the math is wild.\n\nHe calls it \"phase transitions in human networks.\" When you're stationary, your probability of a lucky event is limited to your existing surface area: the people you already",
+      "lang": "en",
+      "favorite_count": 21995,
+      "retweet_count": 4115,
+      "reply_count": 149,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041578392852517128",
+      "url": "https://x.com/AnthropicAI/status/2041578392852517128",
+      "screen_name": "AnthropicAI",
+      "created_at": "Tue Apr 07 18:06:34 +0000 2026",
+      "full_text": "Introducing Project Glasswing: an urgent initiative to help secure the world’s most critical software.\n\nIt’s powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans.\nhttps://t.co/NQ7IfEtYk7",
+      "lang": "en",
+      "favorite_count": 19841,
+      "retweet_count": 2819,
+      "reply_count": 913,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041544357204099238",
+      "url": "https://x.com/GerritD/status/2041544357204099238",
+      "screen_name": "GerritD",
+      "created_at": "Tue Apr 07 15:51:19 +0000 2026",
+      "full_text": "10% error rate at any scale would never have been tolerated by Google pre-ChatGPT. The company has fundamentally changed",
+      "lang": "en",
+      "favorite_count": 5799,
+      "retweet_count": 454,
+      "reply_count": 14,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041580334693720511",
+      "url": "https://x.com/DarioAmodei/status/2041580334693720511",
+      "screen_name": "DarioAmodei",
+      "created_at": "Tue Apr 07 18:14:17 +0000 2026",
+      "full_text": "I’m proud that so many of the world’s leading companies have joined us for Project Glasswing to confront the cyber threat posed by increasingly capable AI systems head-on.\n\nhttps://t.co/pn3HSVsThP",
+      "lang": "en",
+      "favorite_count": 5202,
+      "retweet_count": 297,
+      "reply_count": 153,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041506289415553529",
+      "url": "https://x.com/trikcode/status/2041506289415553529",
+      "screen_name": "trikcode",
+      "created_at": "Tue Apr 07 13:20:03 +0000 2026",
+      "full_text": "90% of \"AI startups\" are just:\n\nTake user input\nSend to OpenAI API\nDisplay response\nCharge $29/month",
+      "lang": "en",
+      "favorite_count": 5129,
+      "retweet_count": 165,
+      "reply_count": 175,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041605852382351666",
+      "url": "https://x.com/bcherny/status/2041605852382351666",
+      "screen_name": "bcherny",
+      "created_at": "Tue Apr 07 19:55:41 +0000 2026",
+      "full_text": "Mythos is very powerful, and should feel terrifying. I am proud of our approach to responsibly preview it with cyber defenders, rather than generally releasing it into the wild.\n\nModel card here: https://t.co/HjhknJcRKQ",
+      "lang": "en",
+      "favorite_count": 4964,
+      "retweet_count": 295,
+      "reply_count": 337,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041589910935679323",
+      "url": "https://x.com/kimmonismus/status/2041589910935679323",
+      "screen_name": "kimmonismus",
+      "created_at": "Tue Apr 07 18:52:20 +0000 2026",
+      "full_text": "Let that sink in. Read it very carefully:\n\nDuring testing, Claude Mythos Preview broke out of a sandbox environment, built \"a moderately sophisticated multi-step exploit\" to gain internet access, and emailed a researcher while they were eating a sandwich in the park. https://t.co/dokBpkrulv",
+      "lang": "en",
+      "favorite_count": 4518,
+      "retweet_count": 391,
+      "reply_count": 126,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/dokBpkrulv",
+          "expanded_url": "https://x.com/kimmonismus/status/2041589910935679323/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041589898239426560",
+          "indices": [
+            268,
+            291
+          ],
+          "media_key": "3_2041589898239426560",
+          "media_url_https": "https://pbs.twimg.com/media/HFUvMhWWQAAplzu.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 522,
+                "w": 932,
+                "x": 309,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 522,
+                "x": 719,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 458,
+                "x": 783,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 261,
+                "x": 890,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 1241,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 522,
+            "width": 1241
+          },
+          "sizes": {
+            "large": {
+              "h": 522,
+              "w": 1241
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/dokBpkrulv"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041411785442710008",
+      "url": "https://x.com/wangray/status/2041411785442710008",
+      "screen_name": "wangray",
+      "created_at": "Tue Apr 07 07:04:31 +0000 2026",
+      "full_text": "生化危机女主角 Milla Jovovich 刚在 GitHub 开源了一个 AI 记忆系统，在行业标准 benchmark 上拿了有史以来第一个满分\n\n没错，就是那个爱丽丝🤯\n\n她用 AI 对话几个月后，积累了大量的决策和思考结果全丢了，她觉得现有的记忆系统让 AI 决定什么值得记，不是她想要的\n\n于是她和朋友用 Claude Code https://t.co/RnxyzxN3QP",
+      "lang": "zh",
+      "favorite_count": 4514,
+      "retweet_count": 651,
+      "reply_count": 158,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/RnxyzxN3QP",
+          "expanded_url": "https://x.com/wangray/status/2041411785442710008/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041411342301835264",
+          "indices": [
+            171,
+            194
+          ],
+          "media_key": "13_2041411342301835264",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041411342301835264/img/ULj5DECKfil6q6SD.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 870,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 870,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/RnxyzxN3QP",
+          "video_info": {
+            "aspect_ratio": [
+              24,
+              29
+            ],
+            "duration_millis": 230108,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041411342301835264/pl/Ro88_tP0qdMY3nxf.m3u8?v=b50"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041411342301835264/vid/avc1/320x386/P6-_7fpCHOyfCNYI.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041411342301835264/vid/avc1/480x580/hJVc7JwlkeKMZVxK.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041411342301835264/vid/avc1/720x870/PIPAuh4rQM2LOkPV.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041365413616066909",
+      "url": "https://x.com/aakashgupta/status/2041365413616066909",
+      "screen_name": "aakashgupta",
+      "created_at": "Tue Apr 07 04:00:15 +0000 2026",
+      "full_text": "Her ballet teachers held lit cigarettes under her thigh to test how long she could hold her leg to her ear without getting burned. She was 10.\n\nLuana Lopes Lara spent 8 years at Brazil's Bolshoi Ballet Academy. 97 applicants for every spot. 13-hour days. Classmates hid glass",
+      "lang": "en",
+      "favorite_count": 3559,
+      "retweet_count": 265,
+      "reply_count": 39,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041433884852936808",
+      "url": "https://x.com/Doomerzoomer/status/2041433884852936808",
+      "screen_name": "Doomerzoomer",
+      "created_at": "Tue Apr 07 08:32:20 +0000 2026",
+      "full_text": "OpenAI paid $300 million for a podcast that gets 717 listeners lmao https://t.co/x58a2Hm7fz",
+      "lang": "en",
+      "favorite_count": 3419,
+      "retweet_count": 64,
+      "reply_count": 124,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/x58a2Hm7fz",
+          "expanded_url": "https://x.com/Doomerzoomer/status/2041433884852936808/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": [
+                {
+                  "h": 37,
+                  "w": 37,
+                  "x": 23,
+                  "y": 394
+                },
+                {
+                  "h": 55,
+                  "w": 55,
+                  "x": 543,
+                  "y": 94
+                },
+                {
+                  "h": 117,
+                  "w": 117,
+                  "x": 249,
+                  "y": 82
+                }
+              ]
+            }
+          },
+          "id_str": "2041433829085433856",
+          "indices": [
+            68,
+            91
+          ],
+          "media_key": "3_2041433829085433856",
+          "media_url_https": "https://pbs.twimg.com/media/HFShQGcaUAAwBWa.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 376,
+                "w": 671,
+                "x": 0,
+                "y": 146
+              },
+              {
+                "h": 522,
+                "w": 522,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 458,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 261,
+                "x": 88,
+                "y": 0
+              },
+              {
+                "h": 522,
+                "w": 671,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 522,
+            "width": 671
+          },
+          "sizes": {
+            "large": {
+              "h": 522,
+              "w": 671
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/x58a2Hm7fz"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041436826406170880",
+      "url": "https://x.com/hooeem/status/2041436826406170880",
+      "screen_name": "hooeem",
+      "created_at": "Tue Apr 07 08:44:02 +0000 2026",
+      "full_text": "when you become a millionaire in 1-3 years because you sell personalised knowledge bases and it’s all because (I repeat): \n\n1: you learn how to build llm knowledge bases (the guide drops everything you need)\n\n2: you go to people who are cash rich and time poor. lawyers, doctors, https://t.co/qO4WRVS05Q",
+      "lang": "en",
+      "favorite_count": 3132,
+      "retweet_count": 256,
+      "reply_count": 92,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/qO4WRVS05Q",
+          "expanded_url": "https://x.com/hooeem/status/2041436826406170880/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041436049746882560",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "13_2041436049746882560",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041436049746882560/img/Wki3bfBkndIEeiKU.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/qO4WRVS05Q",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 34967,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/pl/KLRmSqe5jQHHDB_A.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/480x270/GgE0PEQQnmnTRTkY.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/640x360/toCZ7XtJ-fFIPGq4.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/1280x720/KWGsw93vp-iWVsSs.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/1920x1080/iEwPnP0Uek-5t4Cl.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041436049746882560/vid/avc1/3840x2160/p234ShthUpiqUYXk.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041564884098240833",
+      "url": "https://x.com/Google/status/2041564884098240833",
+      "screen_name": "Google",
+      "created_at": "Tue Apr 07 17:12:53 +0000 2026",
+      "full_text": "Too many @GoogleChrome tabs open? Try vertical tabs, rolling out now. \n\nJust right-click any Chrome window and select “Show Tabs Vertically” to move your tabs to the side of the browser window, making it easier to read page titles and manage tab groups. https://t.co/DO7ShWl89f",
+      "lang": "en",
+      "favorite_count": 3042,
+      "retweet_count": 269,
+      "reply_count": 228,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "display_url": "pic.x.com/DO7ShWl89f",
+          "expanded_url": "https://x.com/Google/status/2041564884098240833/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041564602954027008",
+          "indices": [
+            254,
+            277
+          ],
+          "media_key": "13_2041564602954027008",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041564602954027008/img/SvUMOMfmg9HYlgQS.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1080,
+            "width": 1920
+          },
+          "sizes": {
+            "large": {
+              "h": 1080,
+              "w": 1920
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/DO7ShWl89f",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 9100,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/pl/lQQTl4JhL70ncW7o.m3u8"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/480x270/zQNNgJRd-IjuRcU1.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/640x360/DTzklDnU58gEYetS.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/1280x720/09iR5QwDL0IRAIYC.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041564602954027008/vid/avc1/1920x1080/0WJSCGbuBvu_LaZ6.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041578403686498506",
+      "url": "https://x.com/AnthropicAI/status/2041578403686498506",
+      "screen_name": "AnthropicAI",
+      "created_at": "Tue Apr 07 18:06:36 +0000 2026",
+      "full_text": "Mythos Preview has already found thousands of high-severity vulnerabilities—including some in every major operating system and web browser. https://t.co/YuW484PVrr",
+      "lang": "en",
+      "favorite_count": 3016,
+      "retweet_count": 235,
+      "reply_count": 45,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {},
+          "display_url": "pic.x.com/YuW484PVrr",
+          "expanded_url": "https://x.com/AnthropicAI/status/2041578403686498506/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041570617439457280",
+          "indices": [
+            140,
+            163
+          ],
+          "media_key": "13_2041570617439457280",
+          "media_url_https": "https://pbs.twimg.com/media/HFUk86xXEAEl809.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1620,
+            "width": 2880
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/YuW484PVrr",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 348473,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/pl/E0UNmq0LhnKUzuL_.m3u8?v=436"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/480x270/nGwP2qb6dxldnCQl.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/640x360/pACEB8i4H2LFJSm7.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/1280x720/wnqkrpy148YR1GQM.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041570617439457280/vid/avc1/1920x1080/9kjplcTTrCXqjksJ.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041605983659860115",
+      "url": "https://x.com/deedydas/status/2041605983659860115",
+      "screen_name": "deedydas",
+      "created_at": "Tue Apr 07 19:56:12 +0000 2026",
+      "full_text": "Claude Mythos just obliterated every single benchmark in AI. I can't believe what I'm reading. https://t.co/roAwW0Trts",
+      "lang": "en",
+      "favorite_count": 2772,
+      "retweet_count": 300,
+      "reply_count": 130,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/roAwW0Trts",
+          "expanded_url": "https://x.com/deedydas/status/2041605983659860115/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041605879427166210",
+          "indices": [
+            95,
+            118
+          ],
+          "media_key": "3_2041605879427166210",
+          "media_url_https": "https://pbs.twimg.com/media/HFU9uv6a8AIga8C.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 701,
+                "w": 1252,
+                "x": 0,
+                "y": 988
+              },
+              {
+                "h": 1252,
+                "w": 1252,
+                "x": 0,
+                "y": 712
+              },
+              {
+                "h": 1427,
+                "w": 1252,
+                "x": 0,
+                "y": 560
+              },
+              {
+                "h": 1987,
+                "w": 994,
+                "x": 48,
+                "y": 0
+              },
+              {
+                "h": 1987,
+                "w": 1252,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 1987,
+            "width": 1252
+          },
+          "sizes": {
+            "large": {
+              "h": 1987,
+              "w": 1252
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/roAwW0Trts"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041520153616437696",
+      "url": "https://x.com/AndrewBolis/status/2041520153616437696",
+      "screen_name": "AndrewBolis",
+      "created_at": "Tue Apr 07 14:15:08 +0000 2026",
+      "full_text": "You can earn $9000/month if you have ChatGPT, a laptop, an internet connection, and 60 mins a day.\n\nNormally, I charge $83 for this guide, but today I'm giving it away for free.\n\nLike + reply 'Money' and I'll send you my full guide for FREE.\n\nMust follow me to get guide in DM. https://t.co/xD4fPRWlEs",
+      "lang": "en",
+      "favorite_count": 2650,
+      "retweet_count": 262,
+      "reply_count": 3285,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/xD4fPRWlEs",
+          "expanded_url": "https://x.com/AndrewBolis/status/2041520153616437696/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041520151141773312",
+          "indices": [
+            278,
+            301
+          ],
+          "media_key": "3_2041520151141773312",
+          "media_url_https": "https://pbs.twimg.com/media/HFTvwtKbcAAFDo4.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 398,
+                "w": 711,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 711,
+                "w": 711,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 792,
+                "w": 695,
+                "x": 16,
+                "y": 0
+              },
+              {
+                "h": 792,
+                "w": 396,
+                "x": 178,
+                "y": 0
+              },
+              {
+                "h": 792,
+                "w": 711,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 792,
+            "width": 711
+          },
+          "sizes": {
+            "large": {
+              "h": 792,
+              "w": 711
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/xD4fPRWlEs"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041451958901350728",
+      "url": "https://x.com/levelsio/status/2041451958901350728",
+      "screen_name": "levelsio",
+      "created_at": "Tue Apr 07 09:44:10 +0000 2026",
+      "full_text": "Imagine what 🇧🇷 Brazil could be 😭",
+      "lang": "en",
+      "favorite_count": 2453,
+      "retweet_count": 106,
+      "reply_count": 130,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041394640524357743",
+      "url": "https://x.com/BrivaelFr/status/2041394640524357743",
+      "screen_name": "BrivaelFr",
+      "created_at": "Tue Apr 07 05:56:24 +0000 2026",
+      "full_text": "Christian Clavier explique pourquoi 92% des acteurs sont au chômage. Et sans le savoir, il décrit exactement la structure du venture capital, sauf que le cinéma français fait l'inverse de ce qui marche.\n\n🧵\n\nClavier dit un truc fascinant. Les anciens producteurs comme Claude https://t.co/g6PBQ6mwaO",
+      "lang": "fr",
+      "favorite_count": 2255,
+      "retweet_count": 519,
+      "reply_count": 137,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": true
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/g6PBQ6mwaO",
+          "expanded_url": "https://x.com/BrivaelFr/status/2041394640524357743/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2041393437568794624",
+          "indices": [
+            275,
+            298
+          ],
+          "media_key": "13_2041393437568794624",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2041393437568794624/img/8r_IklGX__LnupnB.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 1280,
+            "width": 720
+          },
+          "sizes": {
+            "large": {
+              "h": 1280,
+              "w": 720
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/g6PBQ6mwaO",
+          "video_info": {
+            "aspect_ratio": [
+              9,
+              16
+            ],
+            "duration_millis": 164884,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2041393437568794624/pl/0iGVFGS1S5YYmQf9.m3u8?v=1a9"
+              },
+              {
+                "bitrate": 632000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041393437568794624/vid/avc1/320x568/gzu1g4pbH_HKxVFf.mp4"
+              },
+              {
+                "bitrate": 950000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041393437568794624/vid/avc1/480x852/er4LUE9pFekyQDqC.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2041393437568794624/vid/avc1/720x1280/CAaSjNunoI8olqPE.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041363640499200353",
+      "url": "https://x.com/paulg/status/2041363640499200353",
+      "screen_name": "paulg",
+      "created_at": "Tue Apr 07 03:53:13 +0000 2026",
+      "full_text": "Since there's yet another article claiming that we \"removed\" Sam because partners distrusted him, no, we didn't. It's not because I want to defend Sam that I keep insisting on this. It's because it's so annoying to read false accounts of my own actions.",
+      "lang": "en",
+      "favorite_count": 2232,
+      "retweet_count": 83,
+      "reply_count": 66,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041238722914685336",
+      "url": "https://x.com/ollama/status/2041238722914685336",
+      "screen_name": "ollama",
+      "created_at": "Mon Apr 06 19:36:50 +0000 2026",
+      "full_text": "Ollama's cloud is now the best place to run Gemma 4 in the cloud! \n\nAvailable through a subscription for developers and third-party integrations.\n\n🦞OpenClaw \nollama launch openclaw --model gemma4:31b-cloud\n\nClaude Code\nollama launch claude --model gemma4:31b-cloud\n\nRun the model https://t.co/UbbxDE1BQt",
+      "lang": "en",
+      "favorite_count": 2224,
+      "retweet_count": 234,
+      "reply_count": 95,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/UbbxDE1BQt",
+          "expanded_url": "https://x.com/ollama/status/2041238722914685336/photo/1",
+          "ext_alt_text": "Ollama's cloud is now the best place to run Gemma 4 in the cloud. ",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "all": {
+              "tags": [
+                {
+                  "name": "Google DeepMind",
+                  "screen_name": "GoogleDeepMind",
+                  "user_id": "4783690002"
+                }
+              ]
+            },
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041236120378408960",
+          "indices": [
+            280,
+            303
+          ],
+          "media_key": "3_2041236120378408960",
+          "media_url_https": "https://pbs.twimg.com/media/HFPtb8HaAAAvgZO.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 728,
+                "w": 1300,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 728,
+                "w": 728,
+                "x": 19,
+                "y": 0
+              },
+              {
+                "h": 728,
+                "w": 639,
+                "x": 64,
+                "y": 0
+              },
+              {
+                "h": 728,
+                "w": 364,
+                "x": 201,
+                "y": 0
+              },
+              {
+                "h": 728,
+                "w": 2190,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 728,
+            "width": 2190
+          },
+          "sizes": {
+            "large": {
+              "h": 681,
+              "w": 2048
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/UbbxDE1BQt"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041553988194390170",
+      "url": "https://x.com/thedankoe/status/2041553988194390170",
+      "screen_name": "thedankoe",
+      "created_at": "Tue Apr 07 16:29:35 +0000 2026",
+      "full_text": "If you're a writer, be okay with repeating what's already been said, because most ideas have already been exhausted, and genuinely novel ideas are rare.\n\nNobody follows you because you're talking about something new. They follow you because they want to read your point of view.",
+      "lang": "en",
+      "favorite_count": 2205,
+      "retweet_count": 174,
+      "reply_count": 272,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2041580372048187449",
+      "url": "https://x.com/kimmonismus/status/2041580372048187449",
+      "screen_name": "kimmonismus",
+      "created_at": "Tue Apr 07 18:14:26 +0000 2026",
+      "full_text": "MYTHOS BENCHMARKS, OFFICIAL. HOLY MOLY \n\nAnthropic cooked!! https://t.co/00ey0SuI75",
+      "lang": "en",
+      "favorite_count": 2149,
+      "retweet_count": 140,
+      "reply_count": 100,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/00ey0SuI75",
+          "expanded_url": "https://x.com/kimmonismus/status/2041580372048187449/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2041580366603902976",
+          "indices": [
+            60,
+            83
+          ],
+          "media_key": "3_2041580366603902976",
+          "media_url_https": "https://pbs.twimg.com/media/HFUmhtPWYAA6C6O.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 421,
+                "w": 751,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 751,
+                "w": 751,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 851,
+                "w": 746,
+                "x": 5,
+                "y": 0
+              },
+              {
+                "h": 851,
+                "w": 426,
+                "x": 233,
+                "y": 0
+              },
+              {
+                "h": 851,
+                "w": 751,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 851,
+            "width": 751
+          },
+          "sizes": {
+            "large": {
+              "h": 851,
+              "w": 751
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/00ey0SuI75"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2041610989607727164",
+      "url": "https://x.com/OpenAIDevs/status/2041610989607727164",
+      "screen_name": "OpenAIDevs",
+      "created_at": "Tue Apr 07 20:16:05 +0000 2026",
+      "full_text": "We’re retiring older models in Codex when you sign in to Codex with your ChatGPT account on April 14:\n\n• gpt-5.2-codex\n• gpt-5.1-codex-mini\n• gpt-5.1-codex-max\n• gpt-5.1-codex\n• gpt-5.1\n• gpt-5",
+      "lang": "en",
+      "favorite_count": 2067,
+      "retweet_count": 67,
+      "reply_count": 100,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    }
+  ]
+}

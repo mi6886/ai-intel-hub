@@ -1,0 +1,340 @@
+{
+  "date": "2026-03-25",
+  "period": "evening",
+  "fetched_at": "2026-03-25T11:39:52.756458+00:00",
+  "raw_count": 34,
+  "candidate_count": 17,
+  "final_count": 4,
+  "review_count": 10,
+  "drop_hard_count": 3,
+  "disposition_stats": {
+    "low_info_content": 8,
+    "off_topic": 2,
+    "meme_or_reaction": 1,
+    "too_brief": 1,
+    "monitored_popular": 3,
+    "brief_mention": 1,
+    "info_value": 1
+  },
+  "tweets": [
+    {
+      "tweet_id": "2036649887002153101",
+      "url": "https://x.com/bcherny/status/2036649887002153101",
+      "screen_name": "bcherny",
+      "created_at": "Wed Mar 25 03:42:26 +0000 2026",
+      "full_text": "Today was a good day https://t.co/iME3drw1Xf",
+      "lang": "en",
+      "favorite_count": 2138,
+      "retweet_count": 39,
+      "reply_count": 155,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/iME3drw1Xf",
+          "expanded_url": "https://x.com/bcherny/status/2036649887002153101/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036649853925871616",
+          "indices": [
+            21,
+            44
+          ],
+          "media_key": "3_2036649853925871616",
+          "media_url_https": "https://pbs.twimg.com/media/HEOiQGMaUAAJf3e.png",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 170,
+                "w": 304,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 170,
+                "x": 5,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 149,
+                "x": 16,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 85,
+                "x": 48,
+                "y": 0
+              },
+              {
+                "h": 170,
+                "w": 516,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 170,
+            "width": 516
+          },
+          "sizes": {
+            "large": {
+              "h": 170,
+              "w": 516
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/iME3drw1Xf"
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036649243096568134",
+      "url": "https://x.com/levelsio/status/2036649243096568134",
+      "screen_name": "levelsio",
+      "created_at": "Wed Mar 25 03:39:53 +0000 2026",
+      "full_text": "Terrible for me because my audience is mostly US\n\nBut I am always outside US, like now Brazil, and other times Portugal or Thailand\n\nThis isn't great for digital nomads",
+      "lang": "en",
+      "favorite_count": 2103,
+      "retweet_count": 43,
+      "reply_count": 354,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": []
+    },
+    {
+      "tweet_id": "2036483295983100314",
+      "url": "https://x.com/GoogleDeepMind/status/2036483295983100314",
+      "screen_name": "GoogleDeepMind",
+      "created_at": "Tue Mar 24 16:40:28 +0000 2026",
+      "full_text": "Watch how fast Gemini 3.1 Flash-Lite can generate websites. ⚡\n\nThis browser creates each page in real-time as you click, search, and navigate. Give it a try → https://t.co/iibqowLwme https://t.co/h1RJ86cB54",
+      "lang": "en",
+      "favorite_count": 2052,
+      "retweet_count": 218,
+      "reply_count": 104,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "additional_media_info": {
+            "monetizable": false
+          },
+          "allow_download_status": {
+            "allow_download": true
+          },
+          "display_url": "pic.x.com/h1RJ86cB54",
+          "expanded_url": "https://x.com/GoogleDeepMind/status/2036483295983100314/video/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "id_str": "2036482868185276416",
+          "indices": [
+            183,
+            206
+          ],
+          "media_key": "13_2036482868185276416",
+          "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2036482868185276416/img/KzEp74CbBvL1AzZ-.jpg",
+          "original_info": {
+            "focus_rects": [],
+            "height": 2160,
+            "width": 3840
+          },
+          "sizes": {
+            "large": {
+              "h": 1152,
+              "w": 2048
+            }
+          },
+          "type": "video",
+          "url": "https://t.co/h1RJ86cB54",
+          "video_info": {
+            "aspect_ratio": [
+              16,
+              9
+            ],
+            "duration_millis": 87233,
+            "variants": [
+              {
+                "content_type": "application/x-mpegURL",
+                "url": "https://video.twimg.com/amplify_video/2036482868185276416/pl/ahZ-kFkf_aQX1sSU.m3u8?v=574"
+              },
+              {
+                "bitrate": 256000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036482868185276416/vid/avc1/480x270/DObYKcuUx20pUh-r.mp4"
+              },
+              {
+                "bitrate": 832000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036482868185276416/vid/avc1/640x360/nSMqADFAw1twRkvK.mp4"
+              },
+              {
+                "bitrate": 2176000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036482868185276416/vid/avc1/1280x720/jcP5o_HyJtMdwj9B.mp4"
+              },
+              {
+                "bitrate": 10368000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036482868185276416/vid/avc1/1920x1080/NuT82dyE91LbvgG3.mp4"
+              },
+              {
+                "bitrate": 25128000,
+                "content_type": "video/mp4",
+                "url": "https://video.twimg.com/amplify_video/2036482868185276416/vid/avc1/3840x2160/-23jyv9-sWv8yNoZ.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tweet_id": "2036442548433199530",
+      "url": "https://x.com/beatsinbrief/status/2036442548433199530",
+      "screen_name": "beatsinbrief",
+      "created_at": "Tue Mar 24 13:58:33 +0000 2026",
+      "full_text": "🚨 BREAKING:\n\nNvidia, Accel &amp; HCLTech in talks to invest $200–250M in Sarvam AI at $1.5B valuation, potentially making it India’s first AI unicorn of 2026. (ET) https://t.co/wN1H7lm1ce",
+      "lang": "en",
+      "favorite_count": 2037,
+      "retweet_count": 257,
+      "reply_count": 14,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [
+        {
+          "display_url": "pic.x.com/wN1H7lm1ce",
+          "expanded_url": "https://x.com/beatsinbrief/status/2036442548433199530/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036442544570298368",
+          "indices": [
+            164,
+            187
+          ],
+          "media_key": "3_2036442544570298368",
+          "media_url_https": "https://pbs.twimg.com/media/HELltGqa8AAtV7k.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 224,
+                "w": 400,
+                "x": 0,
+                "y": 98
+              },
+              {
+                "h": 400,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 351,
+                "x": 25,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 200,
+                "x": 100,
+                "y": 0
+              },
+              {
+                "h": 400,
+                "w": 400,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 400,
+            "width": 400
+          },
+          "sizes": {
+            "large": {
+              "h": 400,
+              "w": 400
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/wN1H7lm1ce"
+        },
+        {
+          "display_url": "pic.x.com/wN1H7lm1ce",
+          "expanded_url": "https://x.com/beatsinbrief/status/2036442548433199530/photo/1",
+          "ext_media_availability": {
+            "status": "Available"
+          },
+          "features": {
+            "large": {
+              "faces": []
+            }
+          },
+          "id_str": "2036442544922599424",
+          "indices": [
+            164,
+            187
+          ],
+          "media_key": "3_2036442544922599424",
+          "media_url_https": "https://pbs.twimg.com/media/HELltH-aoAAMmio.jpg",
+          "original_info": {
+            "focus_rects": [
+              {
+                "h": 414,
+                "w": 740,
+                "x": 0,
+                "y": 33
+              },
+              {
+                "h": 493,
+                "w": 493,
+                "x": 124,
+                "y": 0
+              },
+              {
+                "h": 493,
+                "w": 432,
+                "x": 154,
+                "y": 0
+              },
+              {
+                "h": 493,
+                "w": 247,
+                "x": 247,
+                "y": 0
+              },
+              {
+                "h": 493,
+                "w": 740,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "height": 493,
+            "width": 740
+          },
+          "sizes": {
+            "large": {
+              "h": 493,
+              "w": 740
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/wN1H7lm1ce"
+        }
+      ]
+    }
+  ]
+}
