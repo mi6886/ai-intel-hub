@@ -69,11 +69,19 @@ export function processIngestItems(
 
   // 1. Save contents
   const dbItems = items.map((i) => itemToDbContent(i, categoryId));
+  const ids = dbItems.map((d) => d.id);
+  const placeholders = ids.map(() => '?').join(',');
+  const existingRows = db
+    .prepare(`SELECT id FROM contents WHERE id IN (${placeholders})`)
+    .all(...ids) as Array<{ id: string }>;
+  const existingSet = new Set(existingRows.map((r) => r.id));
+
   try {
     saveContents(dbItems);
-    result.inserted = dbItems.length;
+    result.updated = dbItems.filter((d) => existingSet.has(d.id)).length;
+    result.inserted = dbItems.length - result.updated;
   } catch (e) {
-    result.errors.push(`saveContents failed: ${e}`);
+    result.errors.push(`saveContents failed: ${e instanceof Error ? e.message : String(e)}`);
     result.success = false;
     return result;
   }
@@ -84,19 +92,34 @@ export function processIngestItems(
   twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
   const cutoffDate = twoDaysAgo.toISOString().split('T')[0];
 
-  const rulesStmt = db.prepare(
-    'SELECT id, keyword, likes_threshold, comments_threshold, date_from, date_to FROM monitor_rules WHERE category_id = ? AND enabled = 1 AND keyword = ?'
-  );
+  // Gather unique rule keywords from the batch and fetch all matching rules in one query
+  const keywords = [...new Set(items.map((i) => i.matched_rule.value))];
+  const kwPlaceholders = keywords.map(() => '?').join(',');
+  const allRules = db
+    .prepare(
+      `SELECT id, keyword, likes_threshold, comments_threshold, date_from, date_to
+       FROM monitor_rules
+       WHERE category_id = ? AND enabled = 1 AND keyword IN (${kwPlaceholders})`
+    )
+    .all(categoryId, ...keywords) as Array<{
+    id: number;
+    keyword: string;
+    likes_threshold: number;
+    comments_threshold: number;
+    date_from: string | null;
+    date_to: string | null;
+  }>;
+
+  // Group rules by keyword for O(1) lookup
+  const rulesByKeyword = new Map<string, typeof allRules>();
+  for (const rule of allRules) {
+    const list = rulesByKeyword.get(rule.keyword) || [];
+    list.push(rule);
+    rulesByKeyword.set(rule.keyword, list);
+  }
 
   for (const item of items) {
-    const rules = rulesStmt.all(categoryId, item.matched_rule.value) as Array<{
-      id: number;
-      keyword: string;
-      likes_threshold: number;
-      comments_threshold: number;
-      date_from: string | null;
-      date_to: string | null;
-    }>;
+    const rules = rulesByKeyword.get(item.matched_rule.value) || [];
 
     for (const rule of rules) {
       const pubDate = item.published_at.split('T')[0];
@@ -127,17 +150,35 @@ export function processIngestItems(
     }
   }
 
-  // 3. Record fetch history
+  // 3. Record fetch history — one row per distinct (platform, keyword) pair
+  const historyGroups = new Map<string, { platform: string; keyword: string; count: number }>();
+  for (const item of items) {
+    const key = `${item.platform}::${item.matched_rule.value}`;
+    const existing = historyGroups.get(key);
+    if (existing) {
+      existing.count++;
+    } else {
+      historyGroups.set(key, {
+        platform: item.platform,
+        keyword: item.matched_rule.value,
+        count: 1,
+      });
+    }
+  }
+
   try {
-    saveFetchHistory({
-      category_id: categoryId,
-      platform: 'xiaohongshu',
-      keyword: 'mediacrawler-batch',
-      result_count: items.length,
-      fetched_at: new Date().toISOString(),
-    });
+    const fetchedAt = new Date().toISOString();
+    for (const group of historyGroups.values()) {
+      saveFetchHistory({
+        category_id: categoryId,
+        platform: group.platform,
+        keyword: group.keyword,
+        result_count: group.count,
+        fetched_at: fetchedAt,
+      });
+    }
   } catch (e) {
-    result.errors.push(`saveFetchHistory failed: ${e}`);
+    result.errors.push(`saveFetchHistory failed: ${e instanceof Error ? e.message : String(e)}`);
   }
 
   return result;

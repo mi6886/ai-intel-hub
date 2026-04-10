@@ -42,11 +42,14 @@ describe('processIngestItems', () => {
     expect(result.inserted).toBe(1);
   });
 
-  it('deduplicates by note_id on repeated insert (idempotent)', () => {
-    processIngestItems([sampleItem], 'cat-1');
-    const secondResult = processIngestItems([sampleItem], 'cat-1');
-    expect(secondResult.success).toBe(true);
-    // Second call should not crash and should return success
-    expect(secondResult.inserted).toBe(1); // saveContents uses INSERT OR REPLACE
+  it('distinguishes inserted vs updated on repeated ingest', () => {
+    const uniqueItem: IngestItem = { ...sampleItem, note_id: 'note_distinct_456' };
+    const first = processIngestItems([uniqueItem], 'cat-1');
+    expect(first.inserted).toBe(1);
+    expect(first.updated).toBe(0);
+
+    const second = processIngestItems([uniqueItem], 'cat-1');
+    expect(second.inserted).toBe(0);
+    expect(second.updated).toBe(1);
   });
 });
