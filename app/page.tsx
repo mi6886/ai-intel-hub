@@ -149,6 +149,18 @@ export default function Home() {
       const data = await res.json();
       if (data.success) {
         setAlerts(data.alerts);
+        // If current date has no alerts, auto-select the latest date that does
+        if (data.alerts.length > 0) {
+          const today = new Date().toISOString().split('T')[0];
+          const hasToday = data.alerts.some((a: AlertItem) => a.triggered_at.split('T')[0] === today);
+          if (!hasToday) {
+            const latestDate = data.alerts
+              .map((a: AlertItem) => a.triggered_at.split('T')[0])
+              .sort()
+              .reverse()[0];
+            if (latestDate) setDateFilter(latestDate);
+          }
+        }
       }
     } catch { /* silent */ }
     setLoading(false);
