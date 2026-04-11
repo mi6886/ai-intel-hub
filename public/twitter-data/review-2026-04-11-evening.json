@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-11",
+  "period": "evening",
+  "fetched_at": "2026-04-11T13:40:02.516000+00:00",
+  "review_count": 1,
+  "tweets": [
+    {
+      "tweet_id": "2042789312400363702",
+      "url": "https://x.com/sama/status/2042789312400363702",
+      "screen_name": "sama",
+      "created_at": "Sat Apr 11 02:18:19 +0000 2026",
+      "full_text": "@ShakeelHashim That was a bad word choice and i wish i hadn't used it.\n\nIt has been a tough day and I am not thinking the most clearly that I ever have.",
+      "lang": "en",
+      "favorite_count": 2001,
+      "retweet_count": 23,
+      "reply_count": 210,
+      "view_count": 0,
+      "quoted_tweet_text": "",
+      "media": [],
+      "candidate_reason": "monitored_account",
+      "disposition": "review",
+      "disposition_reason": "monitored_not_ai"
+    }
+  ]
+}

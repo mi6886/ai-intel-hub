@@ -1,0 +1,14 @@
+{
+  "date": "2026-04-11",
+  "period": "evening",
+  "fetched_at": "2026-04-11T13:40:02.515859+00:00",
+  "raw_count": 27,
+  "candidate_count": 1,
+  "final_count": 0,
+  "review_count": 1,
+  "drop_hard_count": 0,
+  "disposition_stats": {
+    "monitored_not_ai": 1
+  },
+  "tweets": []
+}
