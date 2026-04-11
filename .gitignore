@@ -48,3 +48,4 @@ data/*.db-shm
 *.tsbuildinfo
 next-env.d.ts
 .env.production.local
+.claude/settings.local.json
