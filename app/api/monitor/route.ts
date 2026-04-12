@@ -116,7 +116,7 @@ async function runMonitorRules() {
       for (let page = 1; page <= 3; page++) {
         try {
           const pageItems = await searchXhsNotes(rule.keyword, {
-            noteTime: '', sort: 'time_descending', page: String(page),
+            noteTime: 'week', sort: 'time_descending', page: String(page),
           });
           allItems.push(...pageItems);
           if (pageItems.length < 15) break; // no more pages
