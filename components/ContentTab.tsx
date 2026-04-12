@@ -65,6 +65,7 @@ export default function ContentTab({ category }: Props) {
           likes: c.likes as number,
           comments: c.comments as number,
           shares: c.shares as number,
+          collected: (c.collected as number) || 0,
           url: c.url as string,
           summary: c.summary as string,
           fetchedAt: c.fetchedAt as string,

@@ -5,6 +5,7 @@ import {
   createAlert, saveContents, saveFetchHistory,
 } from '@/lib/db';
 import { searchXhsNotes, mapXhsItemToContentItem } from '@/lib/xhs';
+import { pushToRender } from '@/lib/sync';
 
 // GET: list rules
 export async function GET(request: NextRequest) {
@@ -94,6 +95,8 @@ export async function DELETE(request: NextRequest) {
 async function runMonitorRules() {
   const rules = getActiveMonitorRules();
   const results: { ruleId: number; keyword: string; newAlerts: number; error?: string }[] = [];
+  // Collect all fetched items across rules for batch sync to Render
+  const allFetchedItems: { items: ReturnType<typeof mapXhsItemToContentItem>[]; categoryId: string }[] = [];
 
   for (const rule of rules) {
     try {
@@ -136,6 +139,8 @@ async function runMonitorRules() {
           result_count: contentItems.length,
           fetched_at: new Date().toISOString(),
         });
+        // Collect for Render sync
+        allFetchedItems.push({ items: contentItems, categoryId: rule.category_id });
       }
 
       // Check thresholds and create alerts
@@ -190,5 +195,22 @@ async function runMonitorRules() {
     }
   }
 
-  return NextResponse.json({ success: true, results });
+  // Sync all fetched items to Render
+  let syncResult = null;
+  const allItems = allFetchedItems.flatMap((g) => g.items);
+  if (allItems.length > 0) {
+    const categoryId = allFetchedItems[0]?.categoryId || 'cat-1';
+    try {
+      syncResult = await pushToRender(allItems, categoryId);
+      console.log(`[Sync] Pushed ${syncResult.pushed} items to Render: inserted=${syncResult.inserted}, updated=${syncResult.updated}, alerts=${syncResult.new_alerts}`);
+      if (syncResult.errors.length > 0) {
+        console.error('[Sync] Errors:', syncResult.errors);
+      }
+    } catch (error) {
+      console.error('[Sync] Failed:', error);
+      syncResult = { success: false, error: String(error) };
+    }
+  }
+
+  return NextResponse.json({ success: true, results, sync: syncResult });
 }

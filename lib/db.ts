@@ -91,6 +91,7 @@ function initSchema(db: Database.Database) {
       platform TEXT NOT NULL,
       likes INTEGER DEFAULT 0,
       comments INTEGER DEFAULT 0,
+      collected INTEGER DEFAULT 0,
       url TEXT DEFAULT '',
       published_at TEXT,
       triggered_at TEXT NOT NULL,
@@ -101,6 +102,12 @@ function initSchema(db: Database.Database) {
     CREATE INDEX IF NOT EXISTS idx_alerts_read ON alerts(is_read);
     CREATE INDEX IF NOT EXISTS idx_alerts_rule ON alerts(rule_id);
   `);
+
+  // Migration: add collected column to alerts if missing (for existing databases)
+  const alertCols = db.prepare("PRAGMA table_info(alerts)").all() as { name: string }[];
+  if (!alertCols.some(c => c.name === 'collected')) {
+    db.exec("ALTER TABLE alerts ADD COLUMN collected INTEGER DEFAULT 0");
+  }
 }
 
 // ===== Content CRUD =====

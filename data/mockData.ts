@@ -8,6 +8,7 @@ export interface ContentItem {
   likes: number;
   comments: number;
   shares: number;
+  collected?: number;
   url: string;
   summary: string;
 }
