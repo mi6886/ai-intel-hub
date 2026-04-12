@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 
 interface AlertItem {
   id: number;
+  content_id: string;
   title: string;
   author: string;
   platform: string;
@@ -240,26 +241,36 @@ export default function Home() {
     return set;
   }, [alerts, twitterDates, activeTab]);
 
-  // Filter + sort (XHS alerts)
-  const filteredAlerts = alerts
-    .filter((a) => {
-      if (dateFilter) {
-        const trigDate = a.triggered_at.split('T')[0];
-        if (trigDate !== dateFilter) return false;
-      }
-      if (search.trim()) {
-        const q = search.toLowerCase();
-        return a.title.toLowerCase().includes(q) ||
-          a.author.toLowerCase().includes(q) ||
-          (a.keyword && a.keyword.toLowerCase().includes(q));
-      }
+  // Filter + sort + deduplicate (XHS alerts)
+  const filteredAlerts = (() => {
+    const filtered = alerts
+      .filter((a) => {
+        if (dateFilter) {
+          const trigDate = a.triggered_at.split('T')[0];
+          if (trigDate !== dateFilter) return false;
+        }
+        if (search.trim()) {
+          const q = search.toLowerCase();
+          return a.title.toLowerCase().includes(q) ||
+            a.author.toLowerCase().includes(q) ||
+            (a.keyword && a.keyword.toLowerCase().includes(q));
+        }
+        return true;
+      })
+      .sort((a, b) =>
+        sortBy === 'likes'
+          ? b.likes - a.likes
+          : new Date(b.published_at || b.triggered_at).getTime() - new Date(a.published_at || a.triggered_at).getTime()
+      );
+    // Deduplicate by content_id - keep the first (highest ranked) per unique note
+    const seen = new Set<string>();
+    return filtered.filter((a) => {
+      if (!a.content_id) return true;
+      if (seen.has(a.content_id)) return false;
+      seen.add(a.content_id);
       return true;
-    })
-    .sort((a, b) =>
-      sortBy === 'likes'
-        ? b.likes - a.likes
-        : new Date(b.published_at || b.triggered_at).getTime() - new Date(a.published_at || a.triggered_at).getTime()
-    );
+    });
+  })();
 
   // Filter + sort (Twitter)
   const filteredTweets = tweets
