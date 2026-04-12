@@ -108,6 +108,14 @@ function initSchema(db: Database.Database) {
   if (!alertCols.some(c => c.name === 'collected')) {
     db.exec("ALTER TABLE alerts ADD COLUMN collected INTEGER DEFAULT 0");
   }
+
+  // Backfill: update old alerts with collected values from contents table
+  db.exec(`
+    UPDATE alerts SET collected = (
+      SELECT c.collected FROM contents c WHERE c.id = alerts.content_id
+    ) WHERE (collected = 0 OR collected IS NULL)
+      AND content_id IN (SELECT id FROM contents WHERE collected > 0)
+  `);
 }
 
 // ===== Content CRUD =====
