@@ -138,6 +138,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<'x' | 'xhs'>('xhs');
   const [dateFilter, setDateFilter] = useState<string>(new Date().toISOString().split('T')[0]);
   const [calendarOpen, setCalendarOpen] = useState(false);
+  const dateAutoSelected = useRef(false);
   const calRef = useRef<HTMLDivElement>(null);
 
   const [tweets, setTweets] = useState<TweetItem[]>([]);
@@ -149,8 +150,9 @@ export default function Home() {
       const data = await res.json();
       if (data.success) {
         setAlerts(data.alerts);
-        // If current date has no alerts, auto-select the latest date that does
-        if (data.alerts.length > 0) {
+        // Only auto-select date on first load, not when user picks a date
+        if (!dateAutoSelected.current && data.alerts.length > 0) {
+          dateAutoSelected.current = true;
           const today = new Date().toISOString().split('T')[0];
           const hasToday = data.alerts.some((a: AlertItem) => a.triggered_at.split('T')[0] === today);
           if (!hasToday) {
@@ -195,7 +197,16 @@ export default function Home() {
       loadTwitterDates();
       loadTweets(dateFilter);
     }
-  }, [activeTab, loadAlerts, loadTweets, loadTwitterDates, dateFilter]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeTab]);
+
+  // Reload tweets when date changes (Twitter tab only)
+  useEffect(() => {
+    if (activeTab === 'x') {
+      loadTweets(dateFilter);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [dateFilter]);
 
   // Close calendar on click outside
   useEffect(() => {
